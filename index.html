@@ -6,35 +6,32 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            margin: 40px;
             background-color: #f4f4f4;
+            color: #333;
         }
         .container {
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
             background-color: white;
-            padding: 30px;
             border-radius: 8px;
-            max-width: 600px;
-            margin: auto;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-        h1 {
-            color: #333;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
             text-align: center;
         }
+        h1 {
+            color: #2d3748;
+        }
         .links {
-            display: flex;
-            flex-direction: column;
-            gap: 15px;
             margin-top: 30px;
         }
         .links a {
+            display: inline-block;
+            margin: 10px;
+            padding: 15px 25px;
             text-decoration: none;
-            color: white;
             background-color: #2d3748;
-            padding: 15px;
+            color: white;
             border-radius: 5px;
-            text-align: center;
-            transition: background-color 0.3s ease;
         }
         .links a:hover {
             background-color: #4a5568;
@@ -43,7 +40,10 @@
 </head>
 <body>
     <div class="container">
-        <h1>Call In Monitor Documentation</h1>
+        <h1>Welcome to Call In Monitor Documentation</h1>
+        <p>
+            Call In Monitor is a desktop application designed to help you manage and monitor employee call-ins easily. It integrates directly with your Gmail account for efficient call-in tracking, making it the ideal tool for supervisors and HR personnel.
+        </p>
         <div class="links">
             <a href="privacy.html">Privacy Policy</a>
             <a href="terms.html">Terms of Service</a>
